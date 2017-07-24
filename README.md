@@ -11,15 +11,25 @@
  3. /mock/           #模拟后端数据
  4. /app/
 	 	/actions/     #react actions
+
 	 	/components/  #页面组件(木偶组件)
+
 	 	/config/	  #配置
+
 	 	/constants/	  #常量信息
+
 	 	/containers/  #布局信息(智能组件)
+
 	 	/fetch/		  #请求接口
+
 	 	/reducers/	  #react reducer
+
 	 	/router/	  #路由信息
+
 	 	/static/	  #css等静态文件
+
 	 	/store/		  #createStore文件
+	 	
 	 	/util/		  #localStorage 公用方法
  5. webpack.config.js    # 扩展 webpack 配置
  6. package.json         # 配置入口文件、依赖和 scripts
